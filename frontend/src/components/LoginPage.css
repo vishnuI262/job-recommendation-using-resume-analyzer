@@ -1,0 +1,97 @@
+/* Login Page Styles */
+.login-page {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+button {
+   padding: 12px 20px;
+   font-size: 16px;
+   font-weight: bold;
+   color: white;
+   background-color: #007bff; /* Original Blue */
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease-in-out;
+}
+
+button:active {
+   background-color: #99cfff; /* Lighter Blue on Click */
+   transform: none; /* Prevents Enlargement */
+}
+
+.login-container {
+   background: #fff;
+   padding: 30px;
+   border-radius: 12px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   width: 400px;
+   text-align: center;
+}
+
+.login-title {
+   font-size: 28px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   color: #333;
+}
+
+.form-group {
+   margin-bottom: 15px;
+   text-align: left;
+}
+
+label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color: #555;
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   font-size: 16px;
+   transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+   border-color: #4facfe;
+   outline: none;
+   box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+}
+
+.login-button {
+   width: 100%;
+   padding: 12px;
+   border: none;
+   border-radius: 6px;
+   background: #4facfe;
+   color: #fff;
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.login-button:hover {
+   background: #00c6ff;
+   transform: scale(1.05);
+}
+
+.login-button:active {
+   transform: scale(0.95);
+}
+
+.error-message {
+   color: #d9534f;
+   font-size: 14px;
+   margin-top: 10px;
+   text-align: center;
+}
