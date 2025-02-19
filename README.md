@@ -24,22 +24,22 @@
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/your-username/recommend.git
-cd recommend
+- git clone https://github.com/vishnuI262/job-recommendation-using-resume-analyzer.git
+- cd recommend
 
 ### 2️⃣ Install dependencies
 
 ### Frontend
 
-cd client
-npm install
-npm start
+- cd fronted
+- npm install
+- npm start
 
 ### Backend
 
-cd server
-npm install
-node server.js
+- cd backend
+- npm install
+- node server.js
 
 ## 🚀 Usage
 
