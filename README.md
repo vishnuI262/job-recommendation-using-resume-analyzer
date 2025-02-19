@@ -20,27 +20,6 @@
 
 - Axios (for API requests)
 
-## 📂 Project Structure
-
-/recommend
-├── client (Frontend - React)
-│   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   ├── styles.css
-│   └── public
-│
-├── server (Backend - Node.js & Python)
-│   ├── server.js (Handles API requests)
-│   ├── resumeProcessor.py (Processes uploaded resumes)
-│   ├── models
-│   ├── routes
-│   ├── controllers
-│
-└── README.md
-
 ## 🏗️ Setup & Installation
 
 ### 1️⃣ Clone the repository
