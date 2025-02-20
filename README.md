@@ -25,13 +25,13 @@
 ### 1️⃣ Clone the repository
 
 - git clone https://github.com/vishnuI262/job-recommendation-using-resume-analyzer.git
-- cd recommend
+- cd job-recommendation-using-resume-analyzer
 
 ### 2️⃣ Install dependencies
 
 ### Frontend
 
-- cd fronted
+- cd frontend
 - npm install
 - npm start
 
